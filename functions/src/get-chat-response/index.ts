@@ -43,6 +43,7 @@ const getRecipes = onRequest({ timeoutSeconds: 1200 }, async (req, res) => {
 
     const promptContent = getPrompt(req.body);
 
+    console.log(promptContent);
     // const openai = new OpenAI({
     //   apiKey: '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',
     // });
