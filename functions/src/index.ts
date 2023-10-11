@@ -1,3 +1,3 @@
-import getChatResponse from "./get-chat-response";
+import getRecipes from './get-chat-response';
 
-export {getChatResponse}
+export { getRecipes };
