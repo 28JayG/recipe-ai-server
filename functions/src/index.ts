@@ -1,3 +1,9 @@
-import getRecipes from './get-chat-response';
+import { initializeApp } from 'firebase-admin/app';
 
-export { getRecipes };
+import getRecipes from './get-chat-response';
+import addUserToFirestore from './auth/user-on-create';
+
+
+initializeApp();
+
+export { getRecipes, addUserToFirestore };
